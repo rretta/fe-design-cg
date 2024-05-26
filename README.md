@@ -1,6 +1,8 @@
-# React Project with Vite and TypeScript
+# Chicks Gold Frontend Challenge
 
-This is a simple React project scaffolded with Vite, using TypeScript for type safety and vanilla CSS for styling.
+This is a project for the Chicks Gold challenge, using TS and CSS vanilla.
+
+I tried to divide the components into folders with their respective CSS for better organization and I used the BEM methodology in the way that was most comfortable for me. 
 
 
 # Deployment
