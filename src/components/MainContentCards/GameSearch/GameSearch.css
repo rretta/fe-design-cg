@@ -1,5 +1,5 @@
 .searchbar__input {
-  background-color: rgba(102, 102, 211, 0.2);
+  background-color: rgba(153, 153, 209, 0.2);
   height: 3.5em;
   flex: 3;
   margin-left: 1em;
@@ -20,13 +20,13 @@
 }
 
 .searchbar__filters__dropdown option {
-  background-color: rgba(102, 102, 211, 1);
+  background-color: rgb(71, 71, 88);
 }
 
 .searchbar {
   display: flex;
   flex-direction: row;
-  width: 65vw;
+  width: 100%;
 }
 
 .searchbar__filters {
@@ -42,7 +42,11 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(102, 102, 211, 0.2);
+  background-color: rgba(153, 153, 209, 0.2);
+}
+
+.search__type {
+  border-radius: 0 10px 10px 0;
 }
 
 .searchbar__filters__icons {

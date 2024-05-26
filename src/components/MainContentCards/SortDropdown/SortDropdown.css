@@ -6,7 +6,8 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(102, 102, 211, 0.2);
+  background-color: var(--background-color);
+  border-radius: 10px;
 }
 
 .filer-dropdown__icon {

@@ -20,7 +20,7 @@
 }
 
 .section-1__logo {
-  padding: 0 3em;
+  padding: 0 1em;
 }
 
 .section-2 {
@@ -32,20 +32,19 @@
   align-items: stretch;
   flex-flow: column wrap;
 
-  padding-left: 3em;
+  padding-left: 1em;
   border-left: 1px solid rgb(160, 155, 155);
 }
 
 .section-2__listitems {
   display: flex;
   flex: 0 1 auto;
-
   justify-content: stretch;
   align-items: center;
   list-style: none;
   text-decoration: none;
   font-size: 1.2rem;
-  gap: 2em;
+  gap: 1em;
 }
 
 .section-2__item {
@@ -62,8 +61,9 @@
 
 .section-3 {
   display: flex;
+
   flex-direction: row;
-  gap: 2em;
+  gap: 1em;
   align-items: center;
 }
 
@@ -71,7 +71,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.2em;
 }
 
 .section-3__login-button {

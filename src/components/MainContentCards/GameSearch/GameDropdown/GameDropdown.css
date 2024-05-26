@@ -12,14 +12,15 @@
   justify-content: space-around;
   align-items: center;
   gap: 1em;
-  background-color: rgba(102, 102, 211, 0.2);
+  background-color: rgba(153, 153, 209, 0.2);
+
   cursor: pointer;
 }
 
 .dropdown__content {
   display: none;
   position: absolute;
-  background-color: rgb(63, 63, 134);
+  background-color: rgb(91, 91, 112);
   border-radius: 4px;
   width: 100%;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);

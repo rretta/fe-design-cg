@@ -25,7 +25,7 @@ export const GameSearch = () => {
           </div>
         </div>
 
-        <div className="searchbar__filters__type">
+        <div className="searchbar__filters__type search__type">
           <FaFeatherAlt className="searchbar__filters__icons" />
           <div className="searchbar__filters__dropdown">
             <label>Item Type</label>
