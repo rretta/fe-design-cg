@@ -27,8 +27,6 @@ const items = [
 ];
 
 export const BurguerMenu: React.FC<Props> = ({ handlerBurger }) => {
-  // Función para manejar el cierre del menú
-
   useEffect(() => {
     document.body.style.overflow = "hidden";
     return () => {
