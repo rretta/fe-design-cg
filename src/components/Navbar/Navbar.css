@@ -1,0 +1,149 @@
+.navbar {
+  background-color: var(--background-dark-color);
+  padding-block: 1em;
+  padding-inline: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  height: 5em;
+}
+
+.section-1__burguer {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--green-color);
+  font-size: 1.5em;
+}
+
+.section-1__logo {
+  padding: 0 3em;
+}
+
+.section-2 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  align-items: stretch;
+  flex-flow: column wrap;
+
+  padding-left: 3em;
+  border-left: 1px solid rgb(160, 155, 155);
+}
+
+.section-2__listitems {
+  display: flex;
+  flex: 0 1 auto;
+
+  justify-content: stretch;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  gap: 2em;
+}
+
+.section-2__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: none;
+  justify-content: start;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+}
+
+.section-3__cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.section-3__login-button {
+  background-color: var(--green-color);
+  color: var(--background-color);
+  padding: 1em 1.5em;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.5em;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section-1__logo {
+    display: none;
+  }
+
+  .section-2 {
+    padding: 0px;
+    border: none;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+  }
+
+  .section-2__item {
+    flex: 1 1 auto;
+    justify-content: start;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .section-2__listitems {
+    gap: 0em;
+  }
+
+  .section-3__cart {
+    display: none;
+  }
+  .section-3__currency {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .section-1__burguer {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .section-1__logo {
+    padding: 0px 1em;
+    margin-right: 1em;
+  }
+
+  .section-2 {
+    display: none;
+  }
+  .section-3__cart {
+    display: none;
+  }
+  .section-3__currency {
+    display: none;
+  }
+}

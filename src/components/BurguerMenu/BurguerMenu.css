@@ -1,0 +1,15 @@
+.burguer {
+  z-index: 999;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-dark-color);
+}
+
+.burguer__list {
+  padding: 2em;
+  list-style: none;
+}
+.burguer__list li {
+  margin-bottom: 10px;
+}

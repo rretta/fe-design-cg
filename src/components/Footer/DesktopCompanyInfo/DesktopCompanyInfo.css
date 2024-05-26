@@ -1,0 +1,77 @@
+.info__company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3em 0;
+}
+
+.column__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.column__logo img {
+  width: 200px;
+}
+
+.column__logo a {
+  font-size: medium;
+}
+
+footer h3 {
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+}
+footer li a {
+  color: rgb(139, 151, 151);
+  font-size: 12px;
+}
+
+.column__trustpilot {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+.column__trustpilot p {
+  color: rgb(139, 151, 151);
+  font-size: small;
+}
+.trustpilot__icon {
+  color: var(--green-color);
+}
+
+.copyright__text {
+  text-align: center;
+  padding-bottom: 1em;
+  color: rgb(139, 151, 151);
+}
+
+@media (max-width: 1024px) {
+  .info__company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3em 0;
+  }
+  .column__chicks-gold {
+    display: none;
+  }
+
+  .column__support {
+    display: none;
+  }
+
+  .column__legal {
+    display: none;
+  }
+
+  .column__trustpilot {
+    display: none;
+  }
+}

@@ -1,0 +1,121 @@
+.card {
+  max-width: 250px;
+  max-height: 350px;
+  background-color: var(--background-color);
+  padding: 2em 1em;
+  border-radius: 10px;
+}
+
+.card__sale {
+  font-size: x-small;
+}
+
+.card__sale__icon {
+  color: var(--green-color);
+}
+
+.card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stock-status {
+  padding: 0.2em;
+  border: 1px solid var(--green-color);
+  color: var(--green-color);
+  border-radius: 5px;
+  font-size: x-small;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.card__header__status {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__header__quantity {
+  background-color: rgba(102, 102, 211, 0.2);
+  color: white;
+  width: 4em;
+  height: 3em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.card-image {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.card__title {
+  font-size: 1em;
+  font-weight: 200;
+  padding: 0.2em 0;
+}
+
+.card__body__game-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5em auto;
+}
+
+.card-price {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  margin: 0.5em auto;
+}
+
+.card-price__real-price {
+  font-weight: 400 !important;
+  text-decoration: line-through;
+  text-decoration-color: red;
+  color: rgb(169, 160, 160);
+}
+
+.card-description {
+  font-size: normal;
+  color: #979aa2;
+}
+
+.details-button {
+  background-color: #34384c;
+  color: #979aa2;
+  border: none;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.card__buttons {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.add-button {
+  background-color: var(--blue-color);
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+
+  color: white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card__cart-icon {
+  color: white;
+  font-size: medium;
+}
+
+.card__cart-icon__container {
+  background-color: var(--blue-dark-color);
+  padding: 0.5em;
+  margin-left: 1em;
+}
