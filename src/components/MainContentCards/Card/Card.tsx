@@ -49,24 +49,27 @@ const Card: React.FC<CardProps> = ({ product }) => {
       </div>
 
       <img src={image} alt={name} className="card-image" />
+
       <div className="card__body">
-        <div className="card__body__game-title-container">
-          <h3 className="card__title">{name}</h3>
-          <img src={game} alt={name} className="card__game" />
-        </div>
+        <div className="card__body__content">
+          <div className="card__body__game-title-container">
+            <h3 className="card__title">{name}</h3>
+            <img src={game} alt={name} className="card__game" />
+          </div>
 
-        <div className="card-price">
-          {price !== undefined ? (
-            <p>${price.toFixed(2)}</p>
-          ) : (
-            <p className="card-price__unavailable">Price Unavailable</p>
-          )}
-          {realPrice !== undefined && (
-            <p className="card-price__real-price">${realPrice.toFixed(2)}</p>
-          )}
-        </div>
+          <div className="card-price">
+            {price !== undefined ? (
+              <p>${price.toFixed(2)}</p>
+            ) : (
+              <p className="card-price__unavailable">Price Unavailable</p>
+            )}
+            {realPrice !== undefined && (
+              <p className="card-price__real-price">${realPrice.toFixed(2)}</p>
+            )}
+          </div>
 
-        <p className="card-description">{description}</p>
+          <p className="card-description">{description}</p>
+        </div>
 
         <div className="card__buttons">
           <button className="details-button">DETAILS</button>
